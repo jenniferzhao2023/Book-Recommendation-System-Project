@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommended Books!</title>
+</head>
+<body>
+<h1>Recommended Books:</h1>
+<ul>
+
+{% for bookinfo in results %} 
+<li>
+<tr>
+ <td><img src={{bookinfo[4]}} alt={{bookinfo[5]}} width=80;height=auto></td>
+ <br>
+    <td style="font-size:30px;>{{bookinfo[1]}}</td>
+	<br>
+	  <td>by {{bookinfo[2]}} | </td>
+	  <td> {{bookinfo[3]}}</td>
+ 
+</tr>
+<br>
+<br>
+</li>
+{% endfor %} 
+
+</ul>
+
+</html>
