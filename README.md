@@ -7,11 +7,10 @@ Key Goals of the Project:
 1. Base-Case Recommendations for New Users: The recommendation engine will provide initial recommendations for new users based on their past ratings and/or other relevant keywords, ensuring relevant content suggestions.
 2. Personalized Recommendations through Collaborative Filtering: By utilizing user ID and search preferences, collaborative filtering techniques will generate personalized recommendations for active users based on their activity history and search preferences, enhancing the user experience.
 ## Dataset:
-The dataset contains book information along with user ratings and is available from Kaggle.
+The dataset contains book information along with user ratings and is available from Kaggle.Due to the large data size, a subset was created by sampling 13,000 records from the original dataset.
 1. Books.csv: book information(book title, authors, publish year). It consists of 27K rows.
 2. Ratings.csv: book rating description(user_id, book_id, rating). It consists of 27K rows.
 3. Users.csv: user descriptions (user_id, location, age). It consists of 160K rows.
-Due to the large data size, a subset was created by sampling 13,000 records from the original dataset.
 ## TECH STACK
 Language: Python    
 Libraries: Panda, Numpy, Seaborn    
