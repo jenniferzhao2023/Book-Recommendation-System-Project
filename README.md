@@ -13,11 +13,11 @@ The dataset contains book information along with user ratings and is available f
 3. Users.csv: user descriptions (user_id, location, age). It consists of 160K rows
 Due to the large data size, a subset was created by sampling 13,000 records from the original dataset.
 ## TECH STACK
- Language: Python
- Libraries: Panda, Numpy, Seaborn
- Sklearn Modules: TfidfVectorizer, cosine_sililarity, TruncatedSVD, NearestNeighbors, Sparse_matrix
- Web Tools: Flask, HTML
- Models: KNN(K-Mean) and Truncated SVD Latent Factors Model
+Language: Python
+Libraries: Panda, Numpy, Seaborn
+Sklearn Modules: TfidfVectorizer, cosine_sililarity, TruncatedSVD, NearestNeighbors, Sparse_matrix
+Web Tools: Flask, HTML
+Models: KNN(K-Mean) and Truncated SVD Latent Factors Model
    
 ## Process:
 1. Perfrommed EDA:
