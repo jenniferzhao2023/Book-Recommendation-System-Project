@@ -11,7 +11,7 @@ The dataset contains book information along with user ratings and is available f
 1. Books.csv: book information(book title, authors, publish year). It consists of 27K rows.
 2. Ratings.csv: book rating description(user_id, book_id, rating). It consists of 27K rows.
 3. Users.csv: user descriptions (user_id, location, age). It consists of 160K rows.
-<br> Due to the large data size, a subset was created by sampling 13,000 records from the original dataset.
+<br>Due to the large data size, a subset was created by sampling 13,000 records from the original dataset.
 ## TECH STACK
 Language: Python    
 Libraries: Panda, Numpy, Seaborn    
